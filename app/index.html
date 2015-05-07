@@ -47,7 +47,9 @@
     </div>
 <div class="">
   <div class="col-lg-4">
-    <viz-chart-panel></viz-chart-panel>
+    <viz-chart-panel chart-title="this is a bar chart" chart-data="{key:[1,2,3,4,5]}">
+      <viz-bar-chart></viz-bar-chart>
+    </viz-chart-panel>
   </div>
 </div>
 
@@ -78,6 +80,9 @@
     <script src="bower_components/angular-sanitize/angular-sanitize.js"></script>
     <script src="bower_components/angular-touch/angular-touch.js"></script>
     <script src="bower_components/angular-bootstrap/ui-bootstrap-tpls.js"></script>
+    <script src="bower_components/Angular.uuid2/dist/angular-uuid2.min.js"></script>
+    <script src="bower_components/d3/d3.js"></script>
+    <script src="bower_components/d3-tip/index.js"></script>
     <!-- endbower -->
     <!-- endbuild -->
 
@@ -87,6 +92,7 @@
         <script src="scripts/controllers/about.js"></script>
         <script src="scripts/controllers/vizcharts.js"></script>
         <script src="scripts/directives/viz-chart-panel.js"></script>
+        <script src="scripts/directives/viz-bar-chart.js"></script>
         <!-- endbuild -->
 </body>
 </html>

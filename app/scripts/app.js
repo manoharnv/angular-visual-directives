@@ -18,7 +18,8 @@ angular
     'ngRoute',
     'ngSanitize',
     'ngTouch',
-    'ui.bootstrap'
+    'ui.bootstrap',
+    'angularUUID2'
   ])
   .config(function ($routeProvider) {
     $routeProvider
